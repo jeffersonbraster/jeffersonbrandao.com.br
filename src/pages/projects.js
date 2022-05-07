@@ -1,4 +1,4 @@
-import Course from "components/Project";
+import Project from "components/Project";
 import { NextSeo } from "next-seo";
 
 const projectsList = [
@@ -33,7 +33,7 @@ const ProjectsPage = () => (
       }}
     />
     {projectsList.map(({ title, description, link, image }, i) => (
-      <Course
+      <Project
         key={i}
         title={title}
         description={description}
