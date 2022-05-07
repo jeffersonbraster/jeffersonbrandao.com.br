@@ -1,0 +1,55 @@
+{
+  "name": "jeffersonbrandao-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My personal blog on jeffersonbrandao.com.br",
+  "author": "Jefferson Brandão <jeffersonbraster@gmail.com>",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@openlab/vercel-netlify-cms-github": "^1.1.1",
+    "algoliasearch": "^4.13.0",
+    "date-fns": "^2.28.0",
+    "gray-matter": "^4.0.3",
+    "next": "12.1.6",
+    "next-instantsearch": "^0.3.15",
+    "next-seo": "^5.4.0",
+    "nextjs-progressbar": "^0.0.14",
+    "prismjs": "^1.28.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-instantsearch-dom": "^6.24.2",
+    "remark": "^14.0.2",
+    "remark-autolink-headings": "^7.0.1",
+    "remark-html": "^15.0.1",
+    "remark-slug": "^7.0.1",
+    "slugify": "^1.6.5",
+    "styled-components": "^5.3.5",
+    "styled-icons": "^10.45.0",
+    "styled-media-query": "^2.1.2"
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "globby": "^13.1.1",
+    "sitemap": "^7.1.1"
+  },
+  "keywords": [
+    "nextjs",
+    "frontend",
+    "blog"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffersonbraster/jeffersonbrandao.com.br"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffersonbraster/jeffersonbrandao.com.br"
+  }
+}
