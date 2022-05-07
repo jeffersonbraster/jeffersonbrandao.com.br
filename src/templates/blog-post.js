@@ -25,7 +25,7 @@ const BlogPost = ({ post }) => {
   return (
     <>
       <NextSeo
-        title={`${post.frontmatter.title} - Willian Justen`}
+        title={`${post.frontmatter.title} - Jefferson Brandao`}
         description={post.frontmatter.description}
         openGraph={{
           url: `https://jeffersonbrandao.com.br/${post.slug}`,

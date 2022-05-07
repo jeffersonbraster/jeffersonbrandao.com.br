@@ -1,9 +1,9 @@
 import { BLOG_URL } from "./constants";
 
-const globby = require("globby");
-const { SitemapStream, streamToPromise } = require("sitemap");
-const { Readable } = require("stream");
-const fs = require("fs");
+import globby from "globby";
+import { SitemapStream, streamToPromise } from "sitemap";
+import { Readable } from "stream";
+import fs from "fs";
 
 // pages that should not be in the sitemap
 const blocklist = ["/404"];

@@ -1,10 +1,9 @@
 import { NextSeo } from "next-seo";
 
-import Layout from "../components/Layout";
 import { MainContent } from "styles/base";
 
 const AboutPage = () => (
-  <Layout>
+  <>
     <NextSeo
       title="Sobre mim | Jefferson Brandao"
       description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
@@ -49,7 +48,7 @@ const AboutPage = () => (
         conhecimentos e qualquer coisa que eu puder ajudar podem contar comigo.
       </p>
     </MainContent>
-  </Layout>
+  </>
 );
 
 export default AboutPage;
