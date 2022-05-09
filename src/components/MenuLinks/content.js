@@ -9,7 +9,7 @@ const links = [
   },
   {
     label: "Projetos",
-    url: "/projetos",
+    url: "/projects",
   },
 ];
 
