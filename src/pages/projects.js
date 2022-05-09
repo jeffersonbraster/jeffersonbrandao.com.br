@@ -5,7 +5,7 @@ const projectsList = [
   {
     title: "My-Trips com Next",
     image: "mytrips.png",
-    link: "https://www.udemy.com/course/cypress-na-pratica?couponCode=PROMOMAI22",
+    link: "https://my-trips.jeffersonbrandao.com.br/",
     description:
       "Um projeto bem legal com next, leaflet e graphcms. O projeto é sobre as praias do nordeste em que já conheci.",
   },

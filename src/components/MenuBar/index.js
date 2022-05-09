@@ -52,7 +52,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
         </Link>
 
         <S.MenuBarGroupDesktop>
-          <Link href="/projetos/" passHref>
+          <Link href="/projects" passHref>
             <S.MenuBarLink
               className={router.pathname === "/projetos" ? "active" : ""}
               title="Ver projetos"
